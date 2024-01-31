@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        "hero-background": "url(../../public/Homepage/herosection_1920x1120px.jpg)"
-      },
       colors: {
         yellowColor: "#F8AC2E",
         blackColor:"#191919",
