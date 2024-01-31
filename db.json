@@ -1,0 +1,302 @@
+{
+    "volonteers": [
+        {"id": "0", "name": "Idil Abes", "place": "Турција" ,"img": "/Volunteers/1-Idil-Abes.png", "age":"20","description": "Hello! I’m Idil. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "1", "name": "Melih Furkan Orta", "place": "Турција" ,"img": "/Volunteers/2-Melih-Furkan-Orta.png", "age":"22","description": "Hello! I’m Melih. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "2", "name": "Bedirhan Sevim", "place": "Турција" ,"img": "/Volunteers/3-Bedirhan-Sevim.png", "age":"22","description": "Hello! I’m Bedirhan. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "3", "name": "Zeynep Cebeci", "place": "Турција" ,"img": "/Volunteers/4-Zeynep-Cebeci.png", "age":"20","description": "Hello! I’m Zeynep. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "4", "name": "Merve Ozkan", "place": "Турција" ,"img": "/Volunteers/5-Merve-Ozkan.png", "age":"18","description": "Hello! I’m Merve. I am 18. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "5", "name": "Melek Cakan", "place": "Турција" ,"img": "/Volunteers/6-Melek Cakan.png", "age":"20","description": "Hello! I’m Melek. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "6", "name": "Melisa Pektaş", "place": "Турција" ,"img": "/Volunteers/7-Melisa-Pektaş.png", "age":"20","description": "Hello! I’m Melisa. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "7", "name": "Manon Lacoste", "place": "Франција" ,"img": "/Volunteers/8-Manon Lacoste.png", "age":"21","description": "Hello! I’m Manon. I am 21. I am studying in department of law in France, Paris. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "8", "name": "Lisa Simone", "place": "Франција" ,"img": "/Volunteers/9-Lisa Simone.png", "age":"24","description": "Hello! I’m Lisa. I am 24. I am studying in department of law in France, Paris. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "9", "name": "Kaan Alğın", "place": "Турција" ,"img": "/Volunteers/10-Kaan-Alğın.png", "age":"23","description": "Hello! I’m Kaan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "10", "name": "Metehan Cam", "place": "Турција" ,"img": "/Volunteers/11-Metehan-Cam.png", "age":"23","description": "Hello! I’m Metehan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." },
+        {"id": "11", "name": "Ali Karabay", "place": "Турција" ,"img": "/Volunteers/12-Ali-Karabay.png", "age":"29","description": "Hello! I’m Ali. I am 29. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures." }
+
+    ],
+    "our-team": [
+      {
+        "id": "0",
+        "name": "Матео Тренковски",
+        "image":"/ourteam/mateo-trenkoski.jpg",
+        "title": "практикант во ЦМА Крик",
+        "description": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut.Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut."
+      },
+      {
+        "id": "1",
+        "name": "Игор Димовски",
+        "image":"/ourteam/igor-dimovski.jpg",
+        "title": "Координатор за волонтери во ЦМА - Крик",
+        "description": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut.Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut."
+      },
+      {
+        "id": "2",
+        "name": "Сара Димоска",
+        "image":"/ourteam/sara-dimoska.jpg",
+        "title": "Координатор во ЦМА Крик",
+        "description": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut.Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut."
+      }
+    ],
+    "projects": [
+      {
+        "id": "0",
+        "name": "Project 01",
+        "image":"/homepage/homepage_card_2.jpg",
+        "start": "01.01.2022",
+        "end": "01.03.2022"
+      },
+      {
+        "id": "1",
+        "name": "Project 02",
+        "image":"/homepage/homepage_card_3.jpg",
+        "start": "02.02.2022",
+        "end": "02.03.2022"
+      },
+      {
+        "id": "2",
+        "name": "Project 03",
+        "image":"/homepage/homepage_card_4.jpg",
+        "start": "01.01.2022",
+        "end": "01.03.2022"
+      },
+      {
+        "id": "3",
+        "name": "Project 04",
+        "image":"/e-shop/2-1.jpg",
+        "start": "04.04.2022",
+        "end": "01.05.2022"
+      },
+      {
+        "id": "4",
+        "name": "Project 05",
+        "image":"/homepage/homepage_card_3.jpg",
+        "start": "07.03.2022",
+        "end": "01.05.2022"
+      },
+      {
+        "id": "5",
+        "name": "Project 06",
+        "image":"/homepage/homepage_card_2.jpg",
+        "start": "01.01.2022",
+        "end": null
+      },
+      {
+        "id": "6",
+        "name": "Project 07",
+        "image":"/homepage/homepage_card_4.jpg",
+        "start": "01.01.2022",
+        "end": null
+      },
+      {
+        "id": "7",
+        "name": "Project 08",
+        "image":"/e-shop/2-1.jpg",
+        "start": "01.01.2022",
+        "end": null
+      },
+      {
+        "id": "8",
+        "name": "Project 09",
+        "image":"/homepage/homepage_card_3.jpg",
+        "start": "01.01.2022",
+        "end": null
+      },
+      {
+        "id": "9",
+        "name": "Project 10",
+        "image":"/homepage/homepage_card_2.jpg",
+        "start": "01.01.2022",
+        "end": null
+      }
+
+
+    ],
+    "products": [
+        {
+          "id": "0",
+          "category": "Прстен",
+          "product_info": {
+            "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+            "material": "Од алуминиумска жица"
+          },
+          "image":"/e-shop/8-1.jpg",
+          "images": ["/e-shop/8-1.jpg"],
+          "price": "300 Ден"
+        },
+        {
+            "id": "1",
+            "category": "Нараквица",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Алуминиумска жица и монистра"
+            },
+            "image":"/e-shop/2-1.jpg",
+            "images": [
+              "/e-shop/2-2.jpg",
+              "/e-shop/2-1.jpg"
+           
+            ],
+      
+            "price": "350 Ден"
+          },
+          {
+            "id": "2",
+            "category": "Нараквица",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Алуминиумска жица и монистра"
+            },
+            "image":"/e-shop/2-2.jpg",
+            "images": [
+              "/e-shop/2-1.jpg",
+              "/e-shop/2-2.jpg"
+           
+            ],
+            "price": "350 Ден"
+          },
+          {
+            "id": "3",
+            "category": "Прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/4-2.jpg",
+            "images": [
+              "/e-shop/4-2.jpg",
+              "/e-shop/4-1.jpg"
+           
+            ],
+            "price": "300 Ден"
+          },
+          {
+            "id": "4",
+            "category": "Комплет Обетки и прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Алуминиумска жица и монистра"
+            },
+            "image":"/e-shop/5-1.jpg",
+            "images": ["/e-shop/5-1.jpg"],
+            "price": "500 Ден"
+          },
+          {
+            "id": "6",
+            "category": "Единечна обетка",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Алуминиумска жица и монистра"
+            },
+            "image":"/e-shop/6-1.jpg",
+            "images": ["/e-shop/6-1.jpg"],
+            "price": "200 Ден"
+          },
+          {
+            "id": "7",
+            "category": "Комплет Обетки и прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/3-3.jpg",
+            "images": [
+              "/e-shop/3-3.jpg",
+              "/e-shop/3-1.jpg",
+              "/e-shop/3-2.jpg",
+              "/e-shop/3-4.jpg"
+           
+            ],
+            "price": "500 Ден"
+          },
+          {
+            "id": "8",
+            "category": "Прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/1-1.jpg",
+            "images": ["/e-shop/1-1.jpg"],
+            "price": "300 Ден"
+          },
+          {
+            "id": "9",
+            "category": "Прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/4-1.jpg",
+            "images": [
+              "/e-shop/4-2.jpg",
+              "/e-shop/4-1.jpg"
+           
+            ],
+            "price": "300 Ден"
+          },
+          {
+            "id": "10",
+            "category": "Единечна обетка",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/3-1.jpg",
+            "images": [
+              "/e-shop/3-3.jpg",
+              "/e-shop/3-1.jpg",
+              "/e-shop/3-2.jpg",
+              "/e-shop/3-4.jpg"
+           
+            ],
+            "price": "200 Ден"
+          },
+          {
+            "id": "11",
+            "category": "Прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/3-2.jpg",
+            "images": [
+              "/e-shop/3-3.jpg",
+              "/e-shop/3-1.jpg",
+              "/e-shop/3-2.jpg",
+              "/e-shop/3-4.jpg"
+           
+            ],
+            "price": "300 Ден"
+          },
+          {
+            "id": "12",
+            "category": "Единечна обетка",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/3-4.jpg",
+            "images": [
+              "/e-shop/3-3.jpg",
+              "/e-shop/3-1.jpg",
+              "/e-shop/3-2.jpg",
+              "/e-shop/3-4.jpg"
+           
+            ],
+            "price": "200 Ден" 
+          },
+          {
+            "id": "13",
+            "category": "Прстен",
+            "product_info": {
+              "description": "Lorem ipsum dolor sit amet consectetur. In sed lobortis donec a cras feugiat mattis velit venenatis. Adipiscing viverra praesent tristique non. Nunc blandit turpis tellus natoque mi odio viverra fermentum. Pellentesque id cursus nullam donec. Velit et mauris nullam viverra. Lacus bibendum ut id in vestibulum.",
+              "material": "Од алуминиумска жица"
+            },
+            "image":"/e-shop/8-1.jpg",
+            "images": ["/e-shop/8-1.jpg"],
+            "price": "300 Ден"
+          }
+
+    ]
+}
+

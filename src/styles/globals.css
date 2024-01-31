@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  src: url('https://fonts.googleapis.com/css2?family=Mulish:display=swap');
+}
+*{
+  font-family: 'Mulish', sans-serif;
+}
+
+.main-header {
+  padding-top: 200px;
+  height: 100vh;
+}
+
+.tab {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #191919;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.tab.active {
+  border-bottom: 8px solid #FB5E3C;
+}
+  
+  /* Custom scrollbar styling */
+.scrollbar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ff9900 !important; /* Orange color for the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+.enlarge-font {
+  font-size: 120% !important;
+}
+ 
+
+
+  
+
