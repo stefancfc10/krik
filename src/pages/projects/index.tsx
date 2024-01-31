@@ -147,7 +147,7 @@ const Projects: NextPage<Props> = ({data}) => {
 export default Projects;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5001/projects");
+  const res = await fetch("https://cloud-tortoiseshell-myth.glitch.me/projects");
   const data = await res.json();
 
   return {

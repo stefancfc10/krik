@@ -86,7 +86,7 @@ export default VolunteersPage;
 
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch("http://localhost:5001/volonteers");
+  const response = await fetch("https://cloud-tortoiseshell-myth.glitch.me/volonteers");
   const data: VolunteersTypes[] = await response.json();
 
   const paths = data.map((item) => {
@@ -106,7 +106,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params?.id) {
     const response = await fetch(
-      `http://localhost:5001/volonteers/${params.id}`
+      `https://cloud-tortoiseshell-myth.glitch.me/volonteers/${params.id}`
     );
     const data: VolunteersTypes = await response.json();
 

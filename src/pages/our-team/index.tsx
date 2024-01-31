@@ -99,7 +99,7 @@ const Ourteam: NextPage<Props> = ({ data }) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5001/our-team");
+  const res = await fetch("https://cloud-tortoiseshell-myth.glitch.me/our-team");
   const data = await res.json();
 
   return {

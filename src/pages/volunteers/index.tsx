@@ -74,7 +74,7 @@ const Volunteers: NextPage<Props> = ({data}) => {
 export default Volunteers;
 
 export const getStaticProps: GetStaticProps = async () => {
-    const res = await fetch ("http://localhost:5001/volonteers");
+    const res = await fetch ("https://cloud-tortoiseshell-myth.glitch.me/volonteers");
     const data = await res.json();
 
     return {

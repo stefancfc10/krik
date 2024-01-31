@@ -35,7 +35,7 @@ export default PersonPage;
 
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch("http://localhost:5001/our-team");
+  const response = await fetch("https://cloud-tortoiseshell-myth.glitch.me/our-team");
   const data: ShopTypes[] = await response.json();
 
   const paths = data.map((item) => {
@@ -55,7 +55,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params?.id) {
     const response = await fetch(
-      `http://localhost:5001/our-team/${params.id}`
+      `https://cloud-tortoiseshell-myth.glitch.me/our-team/${params.id}`
     );
     const data: ShopTypes = await response.json();
 

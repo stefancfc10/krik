@@ -156,7 +156,7 @@ const Products: NextPage<Props> = ({ data }) => {
 export default Products;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5001/products");
+  const res = await fetch("https://cloud-tortoiseshell-myth.glitch.me/products");
   const data = await res.json();
 
   return {
