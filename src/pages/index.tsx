@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="relative text-center">
         <AccessibilityButton />
-        <main className="bg-cover max-h-screen main-header ">
+        <main className="hero bg-cover max-h-screen main-header ">
           <div className="absolute top-[110px] transform -translate-x-1/2 left-1/2  ">
             <h1 className={`${enlargeFont ? 'text-4xl' : 'text-3xl'} font-extrabold`}>ПРОМЕНАТА ДОАЃА</h1>
             <h1 className={`${enlargeFont ? 'text-4xl' : 'text-3xl'} font-extrabold`}>ОД МЛАДИТЕ</h1>

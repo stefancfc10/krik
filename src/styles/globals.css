@@ -9,6 +9,9 @@
   font-family: 'Mulish', sans-serif;
 }
 
+.hero {
+  background-image: url('../../public/homepage/herosection_1920x1120px.jpg');
+}
 .main-header {
   padding-top: 200px;
   height: 100vh;
