@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.41.3",
     "@types/react-toggle": "^4.0.5",
     "json-server": "^1.0.0-alpha.22",
     "next": "14.0.4",

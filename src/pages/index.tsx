@@ -2,7 +2,6 @@ import AccessibilityButton from "@/components/Accessibility";
 import ImageScroll from "@/components/ImageScroll";
 import { useApp } from "@/context/AppContext";
 import { Inter } from "next/font/google";
-import Image from "next/image";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -85,7 +84,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-1/2">
-          <Image src="/homepage/homepage_nastan_750x655px.jpg" alt="" />
+          <img src="/homepage/homepage_nastan_750x655px.jpg" alt="" />
         </div>
       </div>
       <hr className="my-6 border-gray-900 sm:mx-auto dark:border-gray-900 lg:my-8" />
