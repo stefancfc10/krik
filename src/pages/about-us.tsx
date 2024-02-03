@@ -1,13 +1,14 @@
-
 import { faqData } from "@/constants";
+import { useApp } from "@/context/AppContext";
 import { NextPage } from "next";
 import React, { useState } from "react";
 
 const Faq: NextPage = () => {
   const [visibleFaqs, setVisibleFaqs] = useState(6);
+  const { enlargeFont } = useApp();
 
   const showMoreFaqs = () => {
-    setVisibleFaqs(visibleFaqs + 3); // Show 3 more FAQs
+    setVisibleFaqs(visibleFaqs + 3);
   };
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -46,7 +47,13 @@ const Faq: NextPage = () => {
       </div>
 
       <div className=" mx-auto w-4/5 mb-[210px]">
-        <h1 className=" text-4xl font-extrabold px-5">За Крик</h1>
+        <h1
+          className={`${
+            enlargeFont ? "text-4xl" : "text-3xl"
+          } font-extrabold px-5`}
+        >
+          За Крик
+        </h1>
         <hr className="my-6 border-gray-900 sm:mx-auto dark:border-gray-900 lg:my-8" />
         <div className=" flex">
           <div className="w-1/5">
@@ -102,10 +109,15 @@ const Faq: NextPage = () => {
       </div>
       {faqData.slice(0, visibleFaqs).map((faq, index) => (
         <div
-          className="mx-auto w-4/5 text-xl font-bold text-blackColor rounded-2xl bg-purpleColor pl-2 my-3   "
+          className={`mx-auto w-4/5 text-xl font-bold text-blackColor rounded-2xl shadow-2xl pl-2 my-3 ${
+            openIndex === index ? "opened-faq" : ""
+          }`}
           key={index}
         >
-          <div className="faq-open-close flex flex-row-reverse items-center justify-between px-[50px] py-[40px]" onClick={() => toggleAnswer(index)}>
+          <div
+            className="faq-open-close flex flex-row-reverse items-center justify-between px-[50px] py-[40px]"
+            onClick={() => toggleAnswer(index)}
+          >
             <div className="plus-minus-faq   ">
               {openIndex === index ? (
                 <svg
@@ -135,7 +147,7 @@ const Faq: NextPage = () => {
                 </svg>
               )}
             </div>
-            <div className="faq-question" >{faq.question}</div>
+            <div className="faq-question">{faq.question}</div>
           </div>
           {openIndex === index && (
             <div className="faq-answer">{faq.answer}</div>

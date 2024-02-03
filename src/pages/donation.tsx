@@ -15,10 +15,10 @@ const Donation: NextPage = () => {
           className="w-2/5 text-center mx-auto "
           style={{ borderBottom: "2px solid transparent" }}
           onMouseOver={(e) => {
-            e.currentTarget.style.borderBottom = "5px solid orange";
+            e.currentTarget.style.borderBottom = "8px solid #FB5E3C";
           }}
           onMouseOut={(e) => {
-            e.currentTarget.style.borderBottom = "2px solid transparent";
+            e.currentTarget.style.borderBottom = "8px solid transparent";
           }}
         >
           <h1 className="text-xl">Индивидуа</h1>
@@ -28,7 +28,7 @@ const Donation: NextPage = () => {
           className="w-2/5 text-center mx-auto "
           style={{ borderBottom: "2px solid transparent" }}
           onMouseOver={(e) => {
-            e.currentTarget.style.borderBottom = "5px solid orange";
+            e.currentTarget.style.borderBottom = "8px solid #FB5E3C";
           }}
           onMouseOut={(e) => {
             e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -91,7 +91,7 @@ const Donation: NextPage = () => {
               type="button"
               className="  mr-[24px] bg-blackColor font-bold rounded-2xl text-sm px-[60px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-white"
             >
-              Донирај со
+              Донирај со 💳
             </button>
             <button
               type="button"
@@ -134,7 +134,7 @@ const Donation: NextPage = () => {
             type="text"
             id="search-navbar"
             className="mt-[15px] mb-[10px] w-96 p-3 text-sm text-white border-solid border-2 rounded-2xl dark:bg-transparent dark:border-gray-900 dark:placeholder-text-gray-600 dark:text-gray-600"
-            placeholder="****   ****   ****   ****"
+            placeholder="****   ****   ****   **** "
           ></input>
         </div>
         

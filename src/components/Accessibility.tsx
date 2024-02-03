@@ -1,37 +1,14 @@
 import { useApp } from "@/context/AppContext";
 import React, { useState } from "react";
-import Toggle from 'react-toggle'
+import Toggle from "react-toggle";
 
 const AccessibilityButton = () => {
   const [isHighContrast, setIsHighContrast] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const {enlargeFont, setEnlargeFont} = useApp()
-
-  const toggleHighContrast = () => {
-    // Toggle the high contrast mode
-    setIsHighContrast((prev) => !prev);
-  };
+  const { enlargeFont, setEnlargeFont } = useApp();
 
   const toggleModal = () => {
-    // Toggle the modal visibility
     setIsModalOpen((prev) => !prev);
-  };
-
-  const [position, setPosition] = useState(0);
-  const [directionLeft, setDirectionLeft] = useState(true);
-
-  const toggleDirection = () => {
-    setDirectionLeft((prevDirection) => !prevDirection);
-  };
-
-  const move = () => {
-    if (directionLeft) {
-      setPosition((prevPosition) => prevPosition - 1);
-      console.log(`Moved left. Current position: ${position}`);
-    } else {
-      setPosition((prevPosition) => prevPosition + 1);
-      console.log(`Moved right. Current position: ${position}`);
-    }
   };
 
   return (
@@ -50,7 +27,7 @@ const AccessibilityButton = () => {
           className="w-900 h-800 bg-gray-100 ml-4 overflow-hidden rounded-2xl z-99"
           style={{ animation: "slideIn .3s ease-out" }}
         >
-          {/* Your modal content goes here */}
+          
           <div className="bg-orangeColor">
             <h1 className="font-bold text-center text-white text-2xl">
               Пристапност

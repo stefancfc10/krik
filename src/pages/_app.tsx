@@ -8,6 +8,8 @@ import "react-toggle/style.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
+
+    
     <AppProvider>
       <Navbar />
       <AccessibilityButton />

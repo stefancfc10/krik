@@ -38,47 +38,49 @@ const Products: NextPage<Props> = ({ data }) => {
       </div>
 
       
-<div className="mx auto w-full flex flex-col">
-        <div className=" flex flex-row">
-          <div className="w-1/2 flex flex-row p-2">
-            <div className="w-4/6 filter grayscale p-2">
-              <img src="/icons/centar krikni 2 3.png" alt="" />
+      <div className="mx auto w-full flex flex-col">
+    <div className="flex flex-row h-64">
+        <div className="w-1/2 flex flex-row p-2">
+            <div className="w-4/6 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 12.png" alt="" />
             </div>
             <div className="w-2/6 p-2">
-              <img src="/icons/Rectangle 11.png" alt="" />
+                <img className="h-full object-cover rounded-2xl" src="/e-shop/Rectangle 167.png" alt="" />
             </div>
-          </div>
-
-          <div className="w-1/2 flex flex-row p-2">
-            <div className="w-4/6 filter grayscale p-2">
-              <img src="/icons/centar krikni 2 3.png" alt="" />
-            </div>
-            <div className="w-2/6 p-2">
-              <img src="/icons/Rectangle 11.png" alt="" />
-            </div>
-          </div>
         </div>
 
-        <div className=" flex flex-row">
-          <div className="w-1/2 flex flex-row p-2">
-            <div className="w-4/6 filter grayscale p-2">
-              <img src="/icons/centar krikni 2 3.png" alt="" />
+        <div className="w-1/2 flex flex-row p-2">
+            <div className="w-1/2 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 173.png" alt="" />
             </div>
-            <div className="w-2/6 p-2">
-              <img src="/icons/Rectangle 11.png" alt="" />
+            <div className="w-1/2 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 169.png" alt="" />
             </div>
-          </div>
-
-          <div className="w-1/2 flex flex-row p-2">
-            <div className="w-4/6 filter grayscale p-2">
-              <img src="/icons/centar krikni 2 3.png" alt="" />
-            </div>
-            <div className="w-2/6 p-2">
-              <img src="/icons/Rectangle 11.png" alt="" />
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div className="flex flex-row h-64">
+        <div className="w-1/2 flex flex-row p-2">
+            <div className="w-1/2 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 172.png" alt="" />
+            </div>
+            <div className="w-1/2 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 171.png" alt="" />
+            </div>
+        </div>
+
+        <div className="w-1/2 flex flex-row p-2">
+            <div className="w-4/6 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 166.png" alt="" />
+            </div>
+            <div className="w-2/6 p-2">
+                <img className="h-full w-full object-cover rounded-2xl" src="/e-shop/Rectangle 170.png" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
  <div className="mx-auto w-4/5 mt-[90px]">
         <h1 className="text-2xl font-bold text-blackColor px-5">
           Рачно изработен накит

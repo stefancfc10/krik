@@ -20,7 +20,7 @@ const Application: NextPage = () => {
 
       <div className="mx-auto w-4/5 rounded-2xl shadow-2xl pt-[100px]">
         <div className="w-3/5 mx-auto flex justify-between">
-          <div className="w-1/2 px-5">
+          <div className="w-1/2">
             <h1 className="text-xl font-bold">Име на Волонтер*</h1>
             <input
               type="text"
@@ -29,23 +29,23 @@ const Application: NextPage = () => {
               placeholder="Example Namington"
             ></input>
           </div>
-          <div className=" flex items-center space-x-5  pt-[45px] ">
+          <div className=" flex items-center space-x-5 pl-[30px] pt-[45px] ">
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Под 18 Години
             </button>
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Над 18 Години
             </button>
           </div>
         </div>
         <div className="flex mx-auto w-3/5">
-          <div className="w-1/2 px-5">
+          <div className="w-1/2 ">
             <h1 className="text-xl font-bold">Адреса*</h1>
             <input
               type="text"
@@ -54,8 +54,8 @@ const Application: NextPage = () => {
               placeholder="Example Street 24"
             ></input>
           </div>
-          <div className="w-1/2 ml-[10px]">
-            <h1 className="text-xl font-bold">Искуство со волонтирање*</h1>
+          <div className="w-1/2 pl-[30px] ">
+            <h1 className="text-xl font-bold pt-[25px]">Искуство со волонтирање*</h1>
 
                 <div className="mb-[25px]">
                 <input
@@ -78,7 +78,7 @@ const Application: NextPage = () => {
         </div>
 
         <div className="w-3/5 mx-auto flex justify-between">
-          <div className="w-1/2 px-5">
+          <div className="w-1/2">
             <h1 className="text-xl font-bold">Телефонски број*</h1>
             <input
               type="text"
@@ -86,16 +86,16 @@ const Application: NextPage = () => {
               placeholder="+38900000000"
             ></input>
           </div>
-          <div className=" flex items-center space-x-5  pt-[45px] ">
+          <div className=" flex items-center space-x-5 pl-[30px] pt-[45px] ">
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Lorem Ipsum
             </button>
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Lorem Ipsum
             </button>
@@ -103,7 +103,7 @@ const Application: NextPage = () => {
         </div>
 
         <div className="w-3/5 mx-auto flex justify-between">
-          <div className="w-1/2 px-5">
+          <div className="w-1/2">
             <h1 className="text-xl font-bold">Е-Пошта*</h1>
             <input
               type="text"
@@ -112,16 +112,16 @@ const Application: NextPage = () => {
               placeholder="example@email.com"
             ></input>
           </div>
-          <div className=" flex items-center space-x-5  pt-[45px] ">
+          <div className=" flex items-center space-x-5 pl-[30px] pt-[45px] ">
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Lorem Ipsum
             </button>
             <button
               type="button"
-              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[40px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
+              className=" hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-2xl text-sm px-[20px] py-[10px] text-center me-2 mb-2 dark:border-gray-900 dark:text-gray-900"
             >
               Lorem Ipsum
             </button>

@@ -21,7 +21,7 @@ const Volunteers: NextPage<Props> = ({data}) => {
           className="w-2/5 text-center mx-auto "
           style={{ borderBottom: "2px solid transparent" }}
           onMouseOver={(e) => {
-            e.currentTarget.style.borderBottom = "5px solid orange";
+            e.currentTarget.style.borderBottom = "8px solid #FB5E3C";
           }}
           onMouseOut={(e) => {
             e.currentTarget.style.borderBottom = "2px solid transparent";
@@ -34,7 +34,7 @@ const Volunteers: NextPage<Props> = ({data}) => {
           className="w-2/5 text-center mx-auto "
           style={{ borderBottom: "2px solid transparent" }}
           onMouseOver={(e) => {
-            e.currentTarget.style.borderBottom = "5px solid orange";
+            e.currentTarget.style.borderBottom = "8px solid #FB5E3C";
           }}
           onMouseOut={(e) => {
             e.currentTarget.style.borderBottom = "2px solid transparent";

@@ -1,8 +1,10 @@
+import { useApp } from "@/context/AppContext";
 import { NextPage } from "next";
 import { useState } from "react";
 
 const Services: NextPage = () => {
   const [activeTab, setActiveTab] = useState(0)
+  const { enlargeFont } = useApp();
   return (
     <main className="main mb-[200px] mt-[140px]">
       <div className="flex mx-auto my-8 w-3/5 my-6 mb-[140px] ">
@@ -10,7 +12,7 @@ const Services: NextPage = () => {
           className={`w-4/12 text-center tab ${activeTab === 0 ? "active" : ""}`}
           onClick={() => setActiveTab(0)}
         >
-          <h2>Центар Крикни</h2>
+          <h2 >Центар Крикни</h2>
         </div>
 
         <div
@@ -31,7 +33,9 @@ const Services: NextPage = () => {
       {activeTab === 0 && 
       <>
       <div className=" mx-auto w-4/5 ">
-        <h1 className=" text-3xl font-extrabold px-5 my-6">Центар Крикни</h1>
+        <h1 className={`${
+                enlargeFont ? "text-4xl" : "text-3xl"
+              } font-extrabold px-5 my-6`}>Центар Крикни</h1>
       </div>
       <div className="mx-auto w-4/5 mb-[140px]">
         <p>
@@ -50,7 +54,9 @@ const Services: NextPage = () => {
       </div>
 
       <div className=" mx-auto w-4/5 mt-8 ">
-        <h2 className="font-bold text-xl">Галерија Со Активности</h2>
+        <h2 className={`${
+                enlargeFont ? "text-2xl" : "text-xl"
+              } font-extrabold `}>Галерија Со Активности</h2>
       </div>
 
       <div className="mx-auto w-4/5 flex my-5">

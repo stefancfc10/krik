@@ -17,6 +17,7 @@
   height: 100vh;
 }
 
+
 .tab {
   padding: 0.5em 1em;
   border-bottom: 1px solid #191919;
@@ -27,6 +28,7 @@
 .tab.active {
   border-bottom: 8px solid #FB5E3C;
 }
+
   
   /* Custom scrollbar styling */
 .scrollbar::-webkit-scrollbar {
@@ -34,7 +36,7 @@
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  background-color: #ff9900 !important; /* Orange color for the scrollbar thumb */
+  background-color: #FB5E3C !important; /* Orange color for the scrollbar thumb */
   border-radius: 6px; /* Rounded corners for the thumb */
 }
 
@@ -46,6 +48,9 @@
   font-size: 120% !important;
 }
  
+.opened-faq {
+  background-color: #B8AFDA; 
+}
 
 
   
