@@ -87,13 +87,14 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 bg-yellowColor">
+            <ul  className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-yellowColor">
               <li className="relative pt-[8px]">
                 <button
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
                   className="hover:outline outline-offset-2 outline-gray-900 rounded-2xl flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:hover:text-grey-900 md:p-0 md:w-auto  dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent relative"
                   onClick={toggleDropdown}
+                 
                 >
                   За нас
                   <svg
