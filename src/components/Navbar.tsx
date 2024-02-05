@@ -173,7 +173,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/donation"
-                  className="block py-2 px-3 hover:outline outline-offset-2 outline-gray-900 rounded-2xl  md:dark:text-white rounded-2xl bg-gray-900"
+                  className="block py-2 px-3 hover:outline outline-offset-2 outline-gray-900 rounded-2xl text-white rounded-2xl bg-gray-900"
                 >
                   Донирај
                 </Link>
