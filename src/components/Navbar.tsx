@@ -87,7 +87,7 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 bg-transparent">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 bg-yellowColor">
               <li className="relative pt-[8px]">
                 <button
                   id="dropdownNavbarLink"
