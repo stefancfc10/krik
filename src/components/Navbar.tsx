@@ -8,7 +8,7 @@ const Navbar = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
   return (
-    <div className="bg-white dark:bg-blackColor">
+    <div className="bg-white bg-blackColor">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 shadow-2xl">
         <div className="flex items-center space-x-3 ">
         <Link
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav className="bg-white dark:bg-yellowColor">
+      <nav className="bg-white bg-yellowColor">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
           <Link
             href={"/"}
@@ -65,7 +65,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-900"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-900"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -119,7 +119,7 @@ const Navbar = () => {
                   id="dropdownNavbar"
                   className={`absolute top-full left-0 z-10 ${
                     isDropdownOpen ? "" : "hidden"
-                  } font-normal  divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-blackColor dark:divide-gray-900`}
+                  } font-normal  divide-y divide-gray-100 rounded-lg shadow w-44 bg-blackColor dark:divide-gray-900`}
                 >
                   <ul className="py-2 text-sm text-gray-700 dark:text-white">
                     <li>

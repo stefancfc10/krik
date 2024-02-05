@@ -17,6 +17,38 @@
   height: 100vh;
 }
 
+.bg-yellowColor {
+  background-color: #F8AC2E;
+}
+
+.bg-blackColor{
+  background-color: #191919;
+}
+
+.bg-orangeColor {
+  background-color: #FB5E3C;
+}
+
+.bg-purpleColor{
+  background-color: #B8AFDA;
+}
+
+.text-yellowColor {
+  color: #F8AC2E;
+}
+
+.text-blackColor{
+  color: #191919;
+}
+
+.text-orangeColor {
+  color: #FB5E3C;
+}
+
+.text-purpleColor{
+  color: #B8AFDA;
+}
+
 
 .tab {
   padding: 0.5em 1em;

@@ -8,15 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        yellowColor: "#F8AC2E",
-        blackColor:"#191919",
-        orangeColor:"#FB5E3C",
-        purpleColor:"#B8AFDA"
-
-      },
       
-
     },
   },
   plugins: [],
