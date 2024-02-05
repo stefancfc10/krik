@@ -87,7 +87,7 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-transparent">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 bg-transparent">
               <li className="relative pt-[8px]">
                 <button
                   id="dropdownNavbarLink"
@@ -121,7 +121,7 @@ const Navbar = () => {
                     isDropdownOpen ? "" : "hidden"
                   } font-normal  divide-y divide-gray-100 rounded-lg shadow w-44 bg-blackColor dark:divide-gray-900`}
                 >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-white">
+                  <ul className="py-2 text-sm text-gray-700 text-white">
                     <li>
                       <Link href="/about-us" className="block px-4 py-2 ">
                         За Крик
